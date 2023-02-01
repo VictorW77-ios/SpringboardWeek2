@@ -1,1 +1,5 @@
-Some interesting observations I had during this exercise:
+Interesting observations I had during this exercise:
+
+- If an integer is divisible by 3 and 5, it's also divisible by 15. So I didn't need to use the && operator (else if..3&&5) to complete the last conditional. 
+
+- In order to execute the function in printFizzbuzz, I had to structure my conditionals in a logical order. At first, my if-statements were simply in the order of the exercise: 'if %3' -> 'else if %5' -> 'else if %15'. However, after drawing out a flow control map, I noticed that if the executable (runme) went through each if-statement, it would never get to the %15 conditional. This delimma was created by my first observation, if an integer is divisible by 3 or 5, it is also divisible by 15 - so the function only ran the first condition and failed the others. 
