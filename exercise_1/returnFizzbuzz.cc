@@ -3,17 +3,17 @@
 
 using namespace std; 
 
-string fizzBuzz(int& n){
+string fizzBuzz(){
   string a = "fizzbuzz";
   return a;
 }
 
-string fizz(int& n){
+string fizz(){
   string b = "fizz";
   return b;
 }
 
-string buzz(int& n){
+string buzz(){
   string c = "buzz"; 
   return c;
 }
@@ -21,11 +21,11 @@ string buzz(int& n){
 int main(){
   for(int n=1; n<=50; ++n){
     if(n%3 == 0 && n%5 == 0)
-      cout << fizzBuzz(n) << endl;
+      cout << fizzBuzz() << endl;
     else if(n%3 == 0)
-      cout << fizz(n) << endl;
+      cout << fizz() << endl;
     else if(n%5 == 0)
-      cout << buzz(n) << endl;
+      cout << buzz() << endl;
     else
       cout << n << endl;
  }
