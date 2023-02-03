@@ -2,34 +2,31 @@
 
 using namespace std;
 
-void fizz(string n){
-  a = "fizz";
-  cout << a << endl; 
+void fizz(){
+  cout << "fizz" << endl; 
 }
 
-void buzz(string b){
-  b = "buzz";
-  cout << b << endl; 
+void buzz(){
+  cout << "buzz" << endl; 
 } 
 
-void fizzbuzz(string c){
-  c = "fizzbuzz"; 
-  cout << c << endl;
+void fizzbuzz(){ 
+  cout << "fizzbuzz" << endl;
 }
 
 int main(){ 
   for(int n=1; n<=50; n++){
     if(n%3 == 0 && n%5 == 0)
-      fizzbuzz(a); 
+      fizzbuzz(); 
 
     else if((n%3) == 0)
-      fizz(b);
+      fizz();
 
     else if((n%5) == 0)
-      buzz(c);
+      buzz();
 
     else 
-      cout << n << endl; 
+      cout << n << '\t' << endl; 
   }
   return 0;
 } 
