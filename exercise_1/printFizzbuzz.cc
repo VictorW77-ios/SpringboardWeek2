@@ -26,7 +26,7 @@ int main(){
       buzz();
 
     else 
-      cout << n << '\t' << endl; 
+      cout << n << endl; 
   }
   return 0;
 } 
