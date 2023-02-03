@@ -2,25 +2,35 @@
 
 using namespace std;
 
+void fizz(string n){
+  a = "fizz";
+  cout << a << endl; 
+}
+
+void buzz(string b){
+  b = "buzz";
+  cout << b << endl; 
+} 
+
+void fizzbuzz(string c){
+  c = "fizzbuzz"; 
+  cout << c << endl;
+}
+
 int main(){ 
+  for(int n=1; n<=50; n++){
+    if(n%3 == 0 && n%5 == 0)
+      fizzbuzz(a); 
 
-  cout << "Enter a positive number: ";
-  int N; 
+    else if((n%3) == 0)
+      fizz(b);
 
-  cin >> N;
+    else if((n%5) == 0)
+      buzz(c);
 
-  if(N%15 == 0)
-    cout << "fizzbuzz" << '\n'; 
-
-  else if((N%3) == 0)
-    cout << "fizz" << '\n';
-
-  else if((N%5) == 0)
-    cout << "buzz" << '\n';
-
-  else 
-   cout << N; 
-
+    else 
+      cout << n << endl; 
+  }
   return 0;
 } 
 
