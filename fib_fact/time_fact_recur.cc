@@ -13,7 +13,7 @@ int64_t fact(int N){
 }
 
 int main (){
-  for (int N=0; N<20; ++N){
+  for (int N=0; N<26; ++N){
     auto start = chrono::high_resolution_clock::now();
 
     int64_t f = fact(N);
