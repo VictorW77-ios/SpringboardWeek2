@@ -1,1 +1,3 @@
-These are my notes
+Interesting Observations: 
+
+-> The time to execute each iteratation is more consistent with each other which is kind of weird since the for-loop in main() runs in O(N) time and the last return statement in fact() runs in O(N^2 -1) time, to my knowledge. I don't see that trend in the elapsed time output at first glance. 
