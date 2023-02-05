@@ -1,0 +1,3 @@
+Interesting Observation:
+
+-> It takes much less time to execute each iteration of F(N) than it took to recursively execute F(N). From N = 25 to N = 44, the elapsed time is nearly constant. 
