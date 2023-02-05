@@ -1,1 +1,8 @@
 These are my notes:
+
+-> My understanding of the general logic for fib(): 
+The func should take in an argument from main() that is the value of N (0 to 44). If N=0 or if N=1, return 0 or 1, respectively. But if N > 1, return N-1 + N-2 to satisfy the Fib Sequence F(N). 
+
+-> After executing the program, the elapsed time seems to increase as N and F(N) increases, which makes sense if the program runs on O(n^2) time.  
+
+
