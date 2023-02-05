@@ -1,0 +1,1 @@
+At N=21 and onward, the function runs at constant time and returns negative values for N = 21, 22, and 24.
