@@ -1,3 +1,3 @@
--> Based on the elapsed time, using recursion to find calculate the Fib Sequence is much more ineffecient than using iteration to do the same thing. 
+-> Based on the elapsed time, using recursion to calculate the Fib Sequence is much more ineffecient than using iteration to do the exact same thing.
 
--> 
+-> However, using recursion to calculate Factorials is much more efficient than using iteration. 
