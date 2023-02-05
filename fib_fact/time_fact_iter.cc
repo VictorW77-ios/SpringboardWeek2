@@ -7,7 +7,10 @@ using namespace std;
 int64_t fact(int N){
   int a = 1, i; 
 
-  for(i=1; i<=N; i++){
+  if(N < 2)
+    return 1; 
+
+  for(i=2; i<=N; i++){
     a *= i; 
   }
     

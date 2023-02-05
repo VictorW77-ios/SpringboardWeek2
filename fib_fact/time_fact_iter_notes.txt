@@ -1,3 +1,5 @@
 -> Iterating through each N! runs on O(N) time. I think this is because both for-loops are bounded by the value of N. 
 
--> When calculating 7,8, and 9, as well as 17, 18, and 19 in both iterating and recursion, their elapsed times are very consistent with each other. 
+-> When calculating 7,8, and 9, as well as 17, 18, and 19 in both iterating and recursion, their elapsed times are very consistent with each other.
+
+-> Function doesn't calculate N! correctly starting at N =13. 
