@@ -1,0 +1,1 @@
+-> When I prepend elem_idx to the container array, the index increases to 9999 or 1 less than num_elems (10,000), which shows elem_idx was prepended. 
