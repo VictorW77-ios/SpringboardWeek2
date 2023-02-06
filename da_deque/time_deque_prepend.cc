@@ -25,6 +25,7 @@ int main ()
     ////////////////////////////////////////////////
     // CREATE AN EMPTY DEQUE NAMED container HERE //
     ////////////////////////////////////////////////
+    deque<int32_t> container;
 
     for (int32_t elem_idx=0; elem_idx<num_elems; ++elem_idx)
     {
@@ -33,6 +34,7 @@ int main ()
       ///////////////////////////////////////////////////////
       // INSERT CODE TO PREPEND elem_idx TO container HERE //
       ///////////////////////////////////////////////////////
+      container.push_front(elem_idx);
 
       auto end = chrono::high_resolution_clock::now();
       auto elapsed__ns = chrono::duration_cast<chrono::nanoseconds>(

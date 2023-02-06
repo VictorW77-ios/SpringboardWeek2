@@ -1,0 +1,1 @@
+-> The index output is overall consistent, although there are some spikes here and there. It seems it stil ran at A(1) time. 
