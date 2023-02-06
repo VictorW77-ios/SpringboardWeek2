@@ -1,0 +1,1 @@
+-> Even though appending to a deque and dynamic array should both run at A(1) time, the output was more consistent than the output of the dynamic array.
